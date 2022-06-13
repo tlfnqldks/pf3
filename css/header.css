@@ -1,0 +1,94 @@
+header {
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  left: 0;
+}
+header .wrap{
+  justify-content: space-between;
+  display: flex;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+header h1 {
+  /*! padding-left: 30px; */
+  /*! font-size: 20px; */
+  text-align: center;
+  padding-top: 5px;
+}
+header h1 a {
+  color: #fff;
+}
+header ul.gnb {
+  display: flex;
+  width: 72%;
+}
+header ul.gnb li {
+  line-height: 2.2;
+}
+header ul.gnb li a {
+  color: #fff;
+  padding: 0px 50px;
+  display: block;
+  letter-spacing: -1px;
+}
+header ul.gnb li a:hover{
+  color: orange;
+}
+header a.allmenu {
+  font-size: 0;
+  border: 2px solid red;
+  width: 7px;
+  height: 7px;
+  position: relative;
+  display: block;
+  transform: translateY(7px);
+}
+header a.allmenu span{
+  display: block;
+  width: 7px;
+  height: 7px;
+  border: 2px solid white;
+  position: absolute;
+  left: -15px;
+  top: -2px;
+  transition: all 0.5s;
+}
+header a.allmenu span:hover{
+  
+  border-color: red;
+}
+header a.allmenu span::before{
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border: 2px solid white;
+  position: absolute;
+  top: 11px;
+  left: -2px;
+}
+header a.allmenu span:hover::before{
+  
+  border-color: red;
+}
+header a.allmenu span::after{
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border: 2px solid white;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
+header a.allmenu span:hover::after{
+  
+  border-color: red;
+}
+header h1 a span {
+  font-size: 13px;
+}

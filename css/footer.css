@@ -1,0 +1,139 @@
+footer {
+  background-color: #222222;
+  position: relative;
+}
+footer .wrap {
+  color: white;
+}
+footer .up {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #434343;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+footer .up ul.left {
+  
+}
+footer .up ul.left li {
+  
+}
+footer .up ul.left li a {
+  color: white;
+  font-weight: 700;
+  line-height: 1.9;
+  font-size: 25px;
+}
+footer .up ul.right {
+
+  line-height: 2.5;
+}
+footer .up ul.right li {
+
+}
+footer .up ul.right li h2 {
+
+  color: white;
+  font-weight: 600;
+}
+footer .up ul.right li p {
+
+  color: #777777;
+  padding-bottom: 20px;
+}
+footer ul.fnb {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+footer ul.fnb li {
+  
+}
+footer ul.fnb li a {
+  color: white;
+  padding-right: 30px;
+}
+footer ul.fnb li:nth-child(2) a {
+  color: #f5ce3e;
+}
+footer ul.fnb li a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+footer adress {
+  line-height: 2;
+  color: #777777;
+  font-size: 14px;
+}
+footer p.copyright {
+  
+  color: #777777;
+  line-height: 1.6;
+  font-size: 14px;
+}
+footer ul.sns {
+  float: right;
+  display: flex;
+}
+footer ul.sns li {
+  font-size: 0;
+}
+footer ul.sns li a {
+  padding: 0 6px;
+}
+footer ul.sns li:nth-child(1) a{
+  content: "";
+  background-image: url(../img/face.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+footer ul.sns li:nth-child(2) a{
+  content: "";
+  background-image: url(../img/insta.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+footer ul.sns li:nth-child(3) a{
+  content: "";
+  background-image: url(../img/you.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+footer .gift{
+  width: 191px;
+  height: 70px;
+  display: block;
+  background-color: #d9194a;
+  position: absolute;
+  border-radius: 36px;
+  right: 44px;
+  bottom: 74px;
+}
+footer .gift a{
+  width: 191px;
+  height: 70px;
+  display: block;
+  padding-left: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  top: 26px;
+}
+footer .gift a::after{
+  content: "";
+  background: url(../img/gift.png);
+  display: block;
+  width: 37px;
+  height: 37px;
+  position: relative;
+  right: -116px;
+  top: -27px;
+}
